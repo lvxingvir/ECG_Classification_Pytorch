@@ -392,6 +392,8 @@ def resample_vals(X,samp_len=187):
 if __name__ == '__main__':
     classes= {0:'N',1:'L',2:'R',3:'V',4:'/',5:'A',6:'f',7:'F'}
     patients = all_patients()
-    patients=[101]
+    patients=[201]
     X,y,isolated_beat=isolate_patient_data(patients=patients, classes=classes,classes_further=classes_further,
                              fs=360,verbose=False,plot_figs=True)
+    print('test')
+
